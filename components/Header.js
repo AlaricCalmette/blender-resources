@@ -86,6 +86,11 @@ const Header = ({ setSearchValue, searchValue, search }) => {
                     Add Resource
                   </a>
                 </Link>
+                <Link href="/contributors">
+                  <a className={router.route === `/contributors` ? active : nonActive}>
+                    Contributors
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
